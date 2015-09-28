@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="MyNanodegeeApps">My Nanodegree Apps!</string>
+    <string name="spot_streamer">Spotify Streamer</string>
+    <string name="scores_app">Scores App</string>
+    <string name="LibraryApp">Library App</string>
+    <string name="builditbigger">Build it Bigger</string>
+    <string name="baconreader">XYZ Reader</string>
+    <string name="capstone">CAPSTONE: MY OWN APP</string>
+</resources>

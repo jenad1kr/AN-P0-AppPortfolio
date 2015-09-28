@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:background="#ffdfeaf1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyNanodegeeApps"
+        android:id="@+id/textView"
+        android:textSize="22sp"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spot_streamer"
+        android:id="@+id/button"
+        android:layout_marginTop="25dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/textView"
+        android:layout_gravity="right|top|bottom|center|left"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:onClick="SpotifyStreamer_Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:id="@+id/button2"
+        android:background="#F08C35"
+        android:layout_gravity="right|top|bottom|center|left"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:onClick="ScoresApp_Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LibraryApp"
+        android:id="@+id/button3"
+        android:background="#F08C35"
+        android:layout_gravity="right|top|bottom|center|left"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:onClick="LibraryApp_Click"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/builditbigger"
+        android:id="@+id/button4"
+        android:background="#F08C35"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="right|top|bottom|center|left"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:onClick="BuildItBigger_Click"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/baconreader"
+        android:id="@+id/button5"
+        android:background="#F08C35"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="right|top|bottom|center|left"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:onClick="XYZReaderApp_Click"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/button6"
+        android:background="#f14019"
+        android:layout_gravity="right|top|bottom|center|left"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:onClick="CapStoneApp_Click"
+        />
+</RelativeLayout>
